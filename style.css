@@ -1,4 +1,5 @@
 h1 {
+  font-size: 25pt;
   color: red;
   text-align: center;
   font-weight: bold;
@@ -6,6 +7,7 @@ h1 {
 .titlelist {
  color: blue;
   font-size: 20pt;
+  font-weight: bold;
 }
 .contextinlist {
   color: black;
