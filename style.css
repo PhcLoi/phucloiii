@@ -17,12 +17,16 @@ td {
   border: 2px solid;
   font-size: 14pt;
   text-align: center;  
+  padding-bottom:5px;
+  padding-top:5px;
 }
 th {
   border: 2px solid;
   font-size:17pt;
   text-align:center;
   font-weight:bold;
+  padding-bottom:5px;
+  padding-top:5px;
 }
 .titlelist {
  color: blue;
