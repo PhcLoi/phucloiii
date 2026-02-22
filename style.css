@@ -44,6 +44,3 @@ iframe {
 html, body {
   height:100%;
 }
-body {
-  flex-direction:row;
-}
