@@ -44,3 +44,25 @@ iframe {
 html, body {
   height:100%;
 }
+.room{
+  display:flex;
+  height:100vh;
+  flex-direction:column;
+  }
+.header{
+  flex:15%;
+ background-color:grey;
+}
+.menu
+.menu{
+  flex:5%;
+  background-color:black;
+}
+.context{
+  flex:70%;
+  background-color:white;
+}
+.footer{
+  flex:10%;
+  background-color:grey;
+}
