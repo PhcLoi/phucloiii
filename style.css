@@ -46,7 +46,7 @@ html, body {
   flex-direction:column;
   }
 .header{
-  flex:15%;
+  flex:10%;
  background-color:grey;
 }
 .menu{
@@ -54,7 +54,7 @@ html, body {
   background-color:black;
 }
 .context{
-  flex:70%;
+  flex:75%;
   background-color:white;
 }
 .footer{
