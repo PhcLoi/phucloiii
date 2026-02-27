@@ -52,6 +52,10 @@ html, body {
 .menu{
   flex:5%;
   background-color:black;
+  display:flex;
+}
+.menu a{
+  padding:15px 20px;
 }
 .context{
   flex:75%;
