@@ -55,7 +55,7 @@ html, body {
   display:flex;
 }
 .menu a{
-  padding:15px 20px;
+  padding:20px 15px 20px 15px;
 }
 .context{
   flex:75%;
