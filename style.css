@@ -57,6 +57,10 @@ html, body {
 .menu a{
   padding:20px 15px 20px 15px;
 }
+.menu hover{
+  background-color:light-grey;
+  color:white;
+}
 .context{
   flex:75%;
   background-color:white;
