@@ -51,7 +51,7 @@ html, body {
   display:flex;
 }
 .context{
-  flex:65%;
+  flex:60%;
   background-color:white;
 }
 .footer{
@@ -65,8 +65,8 @@ html, body {
   height:100%;
 }
 .header {
-    flex: 0 0 20%;
-    max-height: 20vh; 
+    flex: 0 0 25%;
+    max-height: 25vh; 
     overflow: hidden;
     background-color:grey;
 }
@@ -74,6 +74,7 @@ html, body {
     width: 100%;
     height: 100%;
     object-fit: cover;
+    object-position: top;
 }
 
 .menu a {
