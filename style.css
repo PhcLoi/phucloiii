@@ -48,6 +48,7 @@ html, body {
 .header{
   flex:20%;
  background-color:grey;
+  overflow: hidden;
 }
 .menu{
   flex:5%;
