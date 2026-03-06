@@ -77,12 +77,12 @@ html, body {
 }
 
 .menu a {
-    padding: 15px 20px; /* Chỉnh lại padding cho cân */
-    color: white;       /* Cho chữ màu trắng cho ngầu */
-    text-decoration: none; /* Bỏ gạch chân */
+    padding: 15px 20px;
+    color: white;
+    text-decoration: none;
 }
 
-.menu a:hover {        /* Sửa lại chỗ này nhé */
+.menu a:hover { 
     background-color: lightgrey;
     color: black;
 }
