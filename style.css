@@ -69,7 +69,6 @@ html, body {
     max-height: 20vh; 
     overflow: hidden;
     background-color:grey;
-    padding-top: 30px;
 }
 .header img {
     width: 100%;
