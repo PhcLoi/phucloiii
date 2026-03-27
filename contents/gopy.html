@@ -4,19 +4,21 @@
     <link rel="stylesheet" href="../style.css">
   </head>
   <body>
-    <h1> Đóng góp ý kiến cho thư viện của nhà trường</h1>
-    <ol>
-      <li class="titlelist">Thông tin về người góp ý</li>
-       <label>Họ và tên:<input type="text" name="txtTen"></label>
-       <br>
-       <label>Email:<input type="text" name="txtMail"></label>
-      <li class="titlelist">Đóng góp ý kiến</li>
-      <label>Ý kiến đóng góp:<textarea name="txtYkien" rows="6" cols="40"></textarea></label>
-    </ol>
-    <b>Thể loại cần bổ sung sách thêm:</b> <br>
-    <input type="checkbox" name="TruyenNgan">Truyện ngắn <br>
-    <input type="checkbox" name="KiNang">Kĩ năng sống <br>
-    <input type="checkbox" name="LichSu">Lịch sử <br>
-    <input type="submit" name="cmd" value="Góp ý">
+    <form action="done.html">
+      <h1> Đóng góp ý kiến cho thư viện của nhà trường</h1>
+      <ol>
+        <li class="titlelist">Thông tin về người góp ý</li>
+         <label>Họ và tên:<input type="text" name="txtTen"></label>
+         <br>
+         <label>Email:<input type="text" name="txtMail"></label>
+        <li class="titlelist">Đóng góp ý kiến</li>
+        <label>Ý kiến đóng góp:<textarea name="txtYkien" rows="6" cols="40"></textarea></label>
+      </ol>
+      <b>Thể loại cần bổ sung sách thêm:</b> <br>
+      <input type="checkbox" name="TruyenNgan">Truyện ngắn <br>
+      <input type="checkbox" name="KiNang">Kĩ năng sống <br>
+      <input type="checkbox" name="LichSu">Lịch sử <br>
+      <input type="submit" name="cmd" value="Góp ý">
+    </form>
   </body>
 </html>
