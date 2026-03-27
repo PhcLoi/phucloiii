@@ -1,3 +1,8 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 h1 {
   font-size: 25pt;
   color: red;
@@ -43,6 +48,7 @@ html, body {
 .room{
   display:flex;
   height:100vh;
+  width:100%;
   flex-direction:column;
   }
 .menu{
@@ -81,11 +87,6 @@ html, body {
     padding: 15px 20px;
     color: white;
     text-decoration: none;
-}
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
 }
 
 .menu a:hover { 
