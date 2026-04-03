@@ -3,8 +3,14 @@
     <meta charset="utf-8">
   </head>
   <body>
-    <b>Cảm ơn bạn đã góp ý kiến</b> <br>
-    Chúng tôi xin ghi nhận ý kiến của bạn và sẽ cải tiến, nâng cao chất lượng phục vụ hơn nữa trong thời gian sắp tới
+    <p id="kq"></p>
+    <script>
+      let dulieu=new URLSearchParams(window.location.search);
+      let ten=dulieu.get("txtName");
+      let ykien=dulieu.get("txtYkien");
+      document.getElementById("kq).innerHTML="Cảm ơn bạn " + ten +" đã góp ý"<br>
+        "Chúng tớ đã ghi nhận ý kiến sau:"<br>+ykien;
+    </script>
     <form action="gopy.html">
     <input type="submit" name="cmd" value="Quay lại >>">
     </form>
