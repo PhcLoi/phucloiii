@@ -3,8 +3,15 @@
     <meta charset="utf-8">
   </head>
   <body>
-    <b>Bạn đã đăng kí thành công</b> <br>
-    Thông tin của bạn đã được ghi nhận
+    <p id="kq"></p>
+    <script>
+      let dulieu=new URLSearchParams(window.location.search);
+      let ten=dulieu.get("txtTen");
+      let ykien=dulieu.get("txtYkien");
+      document.getElementById("kq").innerHTML="Cảm ơn bạn " + ten +" đã đăng kí <br>"
+       + "Chúng tớ đã ghi nhận thông tin đăng kí sau: <br>"+ ykien
+       + "";
+    </script>
     <form action="hoithao.html">
     <input type="submit" name="cmd" value="Quay lại >>">
     </form>
