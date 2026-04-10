@@ -7,10 +7,14 @@
     <script>
       let dulieu=new URLSearchParams(window.location.search);
       let ten=dulieu.get("txtTen");
-      let ykien=dulieu.get("txtYkien");
+      let lop=dulieu.get("lop");
+      let bongro=dulieu.get("BongRo");
+      let bongchuyen=dulieu.get("BongChuyen");
+      let caulong=dulieu.get("Caulong");
       document.getElementById("kq").innerHTML="Cảm ơn bạn " + ten +" đã đăng kí <br>"
-       + "Chúng tớ đã ghi nhận thông tin đăng kí sau: <br>"+ ykien
-       + "";
+       + "Chúng tớ đã ghi nhận thông tin đăng kí của bạn như sau: <br>"
+       + lop + "<br>" 
+       + "Môn tham dự: "+bongro+", "+bongchuyen+", "+caulong;
     </script>
     <form action="hoithao.html">
     <input type="submit" name="cmd" value="Quay lại >>">
